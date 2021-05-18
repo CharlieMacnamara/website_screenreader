@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+    <script src="https://releases.transloadit.com/uppy/robodog/v1.10.7/robodog.min.js"></script>
+</head>
+<body>
+    <h1>Automatic screenreader</h1>
+
+    <div class="event_handler">
+        <button id="button_event" onclick="runScript().then(console.log).catch(console.error)">Generate</button>
+    </div>
+
+    <div data-screenreaderLanguage="en-US">
+
+        <p>test</p>   
+        
+    </div>
+
+    <code>const test = "text";</code>
+
+    <div data-screenreaderLanguage="en-US">
+        <p>
+            test2
+        </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
