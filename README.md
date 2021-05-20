@@ -17,14 +17,14 @@ With that setup you can now the following html to setup your generate text butto
 Finally, to select which text you want read out, wrap said text in a div tag with the following dataset like so:
 ```js
 <div data-screenreaderLanguage="en-US">
-    <p>test</p>   
+    <p>Example Text</p>   
 </div>
 
-<code>const test = "text";</code>
+<code>const message = "I won't be included";</code>
 
 <div data-screenreaderLanguage="en-US">
     <p>
-        test2
+        Example Text 2
     </p>
 </div>
 ```
