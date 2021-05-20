@@ -20,7 +20,7 @@ Finally, to select which text you want read out, wrap said text in a div tag wit
     <p>Example Text</p>   
 </div>
 
-<code>const message = "I won't be included";</code>
+<code> const message = "I won't be included"; </code>
 
 <div data-screenreaderLanguage="en-US">
     <p>
