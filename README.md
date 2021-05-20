@@ -4,7 +4,7 @@ This is a screen reader built with the Transloadit API that can be plugged into 
 ## Current State
 To use this in it's current state go to index.js and update YOUR_AUTH_KEY, to your Transloadit accounts authentication key.
 
-## Existing site
+## Existing Site
 If you wish to use this in an existing website, copy index.js containing your updated auth key and loader.gif to your website directory, then in your html files header add, `<script src="https://releases.transloadit.com/uppy/robodog/v1.10.7/robodog.min.js"></script>` as well as `<script src="index.js"></script>` at the end of your body tag. 
 
 With that setup you can now the following html to setup your generate text button:
@@ -28,3 +28,10 @@ Finally, to select which text you want read out, wrap said text in a div tag wit
     </p>
 </div>
 ```
+## Markdown Website
+If you are using Markdown you need to add markdown="1" to the div tag otherwise you will get no result.
+For example:
+```js
+<div data-screenreaderLanguage="en-US" markdown="1">
+I love **Markdown**!
+</div>
