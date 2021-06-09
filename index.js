@@ -21,7 +21,7 @@ const runScript = async () => {
   const Uppy = Robodog.upload([mytextfile], {
     waitForEncoding: true,
     params: {
-      auth: { key: '6f9ece25ada84dde9bbcfdcb652b5b6a' },
+      auth: { key: 'YOUR_AUTH_KEY' },
       steps: {
       ':original': {
         robot: '/upload/handle',
